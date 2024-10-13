@@ -1,0 +1,22 @@
+.Carousel{
+    padding-top: 85px;
+}
+.car-one{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 755px;
+    height: 300px;
+}
+.car-two{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 755px;
+    height: 300px;
+}
+.car-three{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 755px;
+    height: 290px;
+}

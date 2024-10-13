@@ -3,18 +3,164 @@
   padding: 0;
   box-sizing: border-box;
 }
-.back-img{
-  background-image: url('../src/assets/backgroung.png');
+.background-image{
+  background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(./assets/motor-back.webp) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 350px;
   width: 100%;
-  background-position: center;
-  background-repeat:no-repeat;
-  background-size: cover;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 15px;
-
+  gap: 20px;
+  
 }
+.caravan-background{
+  background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(./assets/backgroung.png) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  
+}
+.tuning-background{
+  background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(./assets/tuning-back.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.background-used{
+  background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(./assets/used-background.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.back-place-image{
+  background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(./assets/place.png) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 38px;
+}
+.DetailsBackground{
+  background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(./assets/motor-back.webp) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 704px;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.caravanBackgtoungimg{
+  background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(./assets//backgroung.png) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 704px;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Tuning-background{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 704px;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(./assets/tuning-back.jpg) ;
+}
+.UsedDetbackimg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 704px;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(./assets/used-background.jpg) ;
+}
+.backgroundCompare{
+  background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(./assets/backgroung.png) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  
+  h1{
+   font-size: 80px;
+  }
+  @media only screen and (max-width: 760px){
+    h1{
+      font-size: 60px;
+    }
+  }
+  @media only screen and (max-width: 540px){
+    h1{
+      font-size: 40px;
+    }
+  }
+  @media only screen and (max-width: 370px){
+    h1{
+      font-size: 30px;
+    }
+  }
+}
+
+
+
